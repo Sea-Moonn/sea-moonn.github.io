@@ -5,9 +5,9 @@ redirect_from:
   - /about/
   - /about.html
 ---
-&nbsp
-&nbsp
-&nbsp
+&nbsp;
+&nbsp;
+&nbsp;
 
   Hi! I am currently an undergraduate student at Southwest University (SWU), where I researched NeRF (Neural Radiance Fields) and low-level vision tasks. I’ve recently been admitted to Sun Yat-sen University (SYSU) as a postgraduate student, 2025 fall, where I will focus on LLMs for software engineering. 
   
@@ -16,4 +16,4 @@ I am very interested in **3D vision and LLMs**, and I believe these two fields w
 
 News:
 ======
-* 2024-09-29  &nbsp&nbsp I am addmitted to Sun Yat-sen University (SYSU) as a postgraduate student (2025 fall).
+* 2024-09-29  &nbsp;&nbsp; I am addmitted to Sun Yat-sen University (SYSU) as a postgraduate student (2025 fall).
