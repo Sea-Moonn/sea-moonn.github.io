@@ -109,14 +109,14 @@
 
   @include breakpoint($large) {
     display: block;
-    width: 100%;
-    padding-left: 0;
-    padding-right: 0;
+    width: 90%;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 
 .author__name {
-  margin: 0;
+  margin: 5px;
 
   @include breakpoint($large) {
     margin-top: 10px;
@@ -125,7 +125,7 @@
 }
 .sidebar .author__name {
   font-family: $sans-serif;
-  font-size: $type-size-5;
+  font-size: $type-size-7;
 }
 
 .sidebar .author__desktop {
@@ -150,6 +150,7 @@
   @include breakpoint($large) {
     margin-top: 10px;
     margin-bottom: 20px;
+    width: 100px;
   }
 }
 
