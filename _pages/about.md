@@ -1,11 +1,11 @@
 ---
 permalink: /
 author_profile: true
+title: "&nbsp"
 redirect_from: 
   - /about/
   - /about.html
 ---
-
 About me:
 ======
   Hi! I am currently an undergraduate student at Southwest University (SWU), where I researched NeRF (Neural Radiance Fields) and low-level vision tasks. I’ve recently been admitted to Sun Yat-sen University (SYSU) as a postgraduate student, 2025 fall, where I will focus on LLMs for software engineering. 
