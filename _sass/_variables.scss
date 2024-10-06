@@ -46,7 +46,7 @@ $type-size-8                : 0.625em;  // ~10px
 $masthead-height            : 70px;
 
 /* Sidebar properties */
-$sidebar-screen-min-width   : 1024px;
+$sidebar-screen-min-width   : 800px;
 $sidebar-link-max-width     : 250px;
 
 
@@ -61,8 +61,8 @@ $darker-gray                : mix(#000, $gray, 60%);
 $light-gray                 : mix(#fff, $gray, 50%);
 $lighter-gray               : mix(#fff, $gray, 90%);
 
-$body-color                 : #fff;
-$background-color           : #fff;
+$body-color                 : #E6E6FA;
+$background-color           : #E6E6FA;
 $code-background-color      : #fafafa;
 $code-background-color-dark : $light-gray;
 $text-color                 : $dark-gray;
