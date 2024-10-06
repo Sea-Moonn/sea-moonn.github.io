@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "China"
-title                    : "Yue Guo's homepage / About"
+title                    : "Yue's homepage / About"
 title_separator          : "-"
 name                     : &name "Yue"
 description              : &description "Yue's homepage"
