@@ -14,4 +14,4 @@ I am very interested in **3D vision and LLMs**, and I believe these two fields w
 
 News:
 ======
-* 2024-09-29  &nbsp;&nbsp; I am addmitted to Sun Yat-sen University (SYSU) as a postgraduate student (2025 fall).
+* 2024-09-29  &nbsp;&nbsp; I have been addmitted to Sun Yat-sen University (SYSU) as a postgraduate student (2025 fall).
