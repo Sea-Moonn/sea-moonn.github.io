@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "China"
-title                    : "Yue Guo / Homepage"
+title                    : "Yue Guo / About"
 title_separator          : "-"
 name                     : &name "Yue"
 description              : &description "Yue's homepage"
@@ -24,11 +24,11 @@ author:
   avatar           : "black-cat.png"
   name             : "Yue Guo"
   pronouns         : # example: "she/her"  
-  bio              : "Hi! I'm now an undergraduate student interested in 3D-Vision, image restoration and LLMs. Let's contribute to AGI~"
+  bio              : "Hi! I'm interested in 3D-Vision, image restoration and LLMs. Let's contribute to AGI together!"
   location         : "Chongqing, China"
   employer         : "Southwest University"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "guoyue_swu@163.com" 
 
   # # Academic websites
   # arxiv            : # URL - Update with the correct link to your profile
@@ -83,9 +83,9 @@ author:
 #     title: 'Conference Papers'
 
 # Site Settings
-teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
+teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
-words_per_minute         : 140
+words_per_minute         : 40
 future                   : true
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
 talkmap_link             : false #change to true to add link to talkmap on talks page
