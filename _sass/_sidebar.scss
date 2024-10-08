@@ -13,7 +13,7 @@
   @include clearfix();
   margin-bottom: 1em;
 
-  @media screen and (min-width: 110%) {
+  @media screen and (min-width) {
     height: 100vh;
     overflow-y: auto;               // Add scrollbar if the sidebar is too long
     position: fixed;
@@ -96,8 +96,8 @@
   }
 
   img {
-    max-width: 210px;
-    border-radius: 30%;
+    max-width: 150px;
+    border-radius: 20%;
 
     @include breakpoint($large) {
       padding: 5px;
