@@ -11,7 +11,7 @@ locale                   : "China"
 title                    : "Yue's homepage / About"
 title_separator          : "-"
 name                     : &name "Yue"
-description              : &description "Yue's homepage"
+description              : &description "Welcome to Yue's homepage"
 url                      : https://sea-moonn.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Sea-Moonn/sea-moonn.github.io"
@@ -24,7 +24,7 @@ author:
   avatar           : "black-cat.png"
   name             : "Yue Guo"
   pronouns         : # example: "she/her"  
-  bio              : "Hi! I'm interested in 3D-Vision, image restoration and LLMs. Let's achieve AGI together!"
+  bio              : "Hi! Nice to meet you here."
   location         : "Chongqing, China"
   employer         : "Southwest University"
   uri              : # URL
@@ -44,7 +44,7 @@ author:
   # codepen          : # Username
   # dribbble         : # Username
   github           : "Sea-Moonn"
-  wechat           : photons_run  
+  # wechat           : photons_run  
   # stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # # Social media
