@@ -96,7 +96,7 @@
   }
 
   img {
-    max-width: 150px;
+    max-width: 130px;
     border-radius: 20%;
 
     @include breakpoint($large) {
@@ -110,7 +110,7 @@
   display: table-cell;
   vertical-align: top;
   padding-left: 10px;
-  padding-right: 10px;
+  padding-right: 25px;
   line-height: 1;
 
   @include breakpoint($large) {
@@ -153,11 +153,12 @@
 .author__bio {
   margin: 0;
   font-size: $type-size-5;
+  width: 40px;
 
   @include breakpoint($large) {
     margin-top: 10px;
     margin-bottom: 20px;
-    width: 200px;
+    width: 220px;
   }
 }
 
@@ -169,6 +170,7 @@
   z-index: 10;
   position: relative;
   cursor: pointer;
+  font-size: $type-size-6;
 
   li:last-child {
     a {
