@@ -7,8 +7,8 @@
    ========================================================================== */
 
 .sidebar {
-  -webkit-transform: translate3d(-35px, -25px , 0);
-          transform: translate3d(-35px, -25px , 0);
+  -webkit-transform: translate3d(-40px, -28px , 0);
+          transform: translate3d(-40px, -28px , 0);
 
   @include clearfix();
   margin-bottom: 1em;
@@ -97,7 +97,7 @@
 
   img {
     max-width: 175px;
-    border-radius: 50%;
+    border-radius: 100%;
 
     @include breakpoint($large) {
       padding: 5px;
@@ -109,15 +109,15 @@
 .author__content {
   display: table-cell;
   vertical-align: top;
-  padding-left: 15px;
-  padding-right: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
   line-height: 1;
 
   @include breakpoint($large) {
     display: block;
     width: 95%;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 1px;
+    padding-right: 1px;
   }
 }
 
