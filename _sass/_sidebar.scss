@@ -7,8 +7,8 @@
    ========================================================================== */
 
 .sidebar {
-  -webkit-transform: translate3d(-25px, -28px , 0);
-          transform: translate3d(-25px, -28px , 0);
+  -webkit-transform: translate3d(-45px, -28px , 0);
+          transform: translate3d(-45px, -28px , 0);
 
   @include clearfix();
   margin-bottom: 1em;
@@ -98,8 +98,11 @@
   img {
     max-width: 130px;
     border-radius: 20%;
-    position: relative; /* 定位是相对于其正常位置 */
-    right: 20; /* 向右移动到容器的边缘 */
+    // position: relative; /* 定位是相对于其正常位置 */
+    // right: 20; /* 向右移动到容器的边缘 */
+    @media (max-width: 500px) {
+    display: none;
+    }
 
     @include breakpoint($large) {
       padding: 5px;
