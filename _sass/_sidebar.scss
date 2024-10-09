@@ -84,7 +84,7 @@
 
 .author__avatar {
   display: table-cell;
-  vertical-align: top;
+  vertical-align: middle;
   width: 36px;
   // set width only, for non-square avatars
   // height: 36px;
@@ -99,7 +99,7 @@
     max-width: 130px;
     border-radius: 20%;
     position: relative; /* 定位是相对于其正常位置 */
-    right: 0; /* 向右移动到容器的边缘 */
+    right: 20; /* 向右移动到容器的边缘 */
 
     @include breakpoint($large) {
       padding: 5px;
