@@ -100,7 +100,7 @@
     border-radius: 20%;
     // position: relative; /* 定位是相对于其正常位置 */
     // right: 20; /* 向右移动到容器的边缘 */
-    @include breakpoint(500px) {
+    @include breakpoint(1000px) {
     display: none;
     }
 
