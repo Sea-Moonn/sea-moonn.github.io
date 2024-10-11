@@ -58,7 +58,7 @@
   }
 
   img {
-    width: 95%;
+    width: 100%;
   }
 }
 
@@ -96,11 +96,11 @@
   }
 
   img {
-    max-width: 130px;
+    max-width: 110px;
     border-radius: 20%;
     // position: relative; /* 定位是相对于其正常位置 */
     // right: 20; /* 向右移动到容器的边缘 */
-    @media (max-width: 500px) {
+    @include breakpoint(500px) {
     display: none;
     }
 
@@ -127,7 +127,7 @@
 }
 
 .author__name {
-  margin: 1px;
+  margin: 0;
 
   @include breakpoint($large) {
     margin-top: 10px;
