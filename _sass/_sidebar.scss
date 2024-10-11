@@ -100,12 +100,13 @@
     // position: relative; /* 定位是相对于其正常位置 */
     // right: 20; /* 向右移动到容器的边缘 */
     @include breakpoint(800px) {
-    display: block;
-    max-width: 180px;
-    border-radius: 20%;
+      display: block;
+      max-width: 180px;
+      border-radius: 20%;
     }
 
     @include breakpoint($large) {
+      display: block;
       padding: 5px;
       border: 1px solid $border-color;
     }
