@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "China"
 title                    : "Yue's homepage"
-title_separator          : " | "
+title_separator          : " &vert "
 name                     : &name "Yue's homepage / About"
 description              : &description "Welcome to Yue's homepage"
 url                      : https://sea-moonn.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
