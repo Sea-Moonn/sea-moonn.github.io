@@ -7,8 +7,8 @@
    ========================================================================== */
 
 .sidebar {
-  -webkit-transform: translate3d(-16px, -28px , 0);
-          transform: translate3d(-16px, -28px , 0);
+  -webkit-transform: translate3d(-46px, -28px , 0);
+          transform: translate3d(-46px, -28px , 0);
 
   @include clearfix();
   margin-bottom: 1em;
@@ -200,7 +200,7 @@
 .author__urls {
   display: none;
   position: absolute;
-  right: 0;
+  right: 20;
   margin-top: 15px;
   padding: 10px;
   list-style-type: none;
