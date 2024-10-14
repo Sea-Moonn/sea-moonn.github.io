@@ -132,8 +132,11 @@ $x-large                    : 850px !default;
    Grid
    ========================================================================== */
 
-$right-sidebar-width-narrow : 110px !default;
-$right-sidebar-width        : 240px !default;
+// $right-sidebar-width-narrow : 110px !default;
+// $right-sidebar-width        : 240px !default;
+// $right-sidebar-width-wide   : 300px !default;
+$right-sidebar-width-narrow : 300px !default;
+$right-sidebar-width        : 300px !default;
 $right-sidebar-width-wide   : 300px !default;
 
 $susy: (
