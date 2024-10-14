@@ -13,18 +13,12 @@
   @include clearfix();
   margin-bottom: 1em;
 
-  @media screen and (min-width) {
+  @media screen and (min-width: $sidebar-min-width) {
     height: 100vh;
     overflow-y: auto;               // Add scrollbar if the sidebar is too long
     position: fixed;
     padding-top: $masthead-height;
   }
-  // @media screen and (max-width: $sidebar-screen-min-width) {
-  // .sidebar {
-  //   height: 50px; // 设置横栏的高度
-  //   width: 100%;   // 使其宽度为100%
-  // }
-  // }
 
   @include breakpoint($large) {
     @include span(2 of 12);
@@ -84,7 +78,7 @@
 
 .author__avatar {
   display: table-cell;
-  vertical-align: middle;
+  vertical-align: top;
   width: 36px;
   // set width only, for non-square avatars
   // height: 36px;
@@ -96,13 +90,8 @@
   }
 
   img {
-   max-width: 180px;
-   border-radius: 20%;
-    // position: relative; /* 定位是相对于其正常位置 */
-    // right: 20; /* 向右移动到容器的边缘 */
-    // @media (max-width: 600px) {
-    //   display: none; // 当宽度小于 600px 时不显示
-    // }
+    max-width: 175px;
+    border-radius: 50%;
 
     @include breakpoint($large) {
       padding: 5px;
@@ -114,15 +103,15 @@
 .author__content {
   display: table-cell;
   vertical-align: top;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 15px;
+  padding-right: 25px;
   line-height: 1;
 
   @include breakpoint($large) {
     display: block;
-    width: 95%;
-    padding-left: 1px;
-    padding-right: 1px;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
@@ -136,7 +125,7 @@
 }
 .sidebar .author__name {
   font-family: $sans-serif;
-  font-size: $type-size-4;
+  font-size: $type-size-5;
 }
 
 .sidebar .author__desktop {
@@ -157,13 +146,10 @@
 
 .author__bio {
   margin: 0;
-  font-size: $type-size-5;
-  // width: 40px;
 
   @include breakpoint($large) {
     margin-top: 10px;
     margin-bottom: 20px;
-    width: 180px;
   }
 }
 
@@ -175,7 +161,6 @@
   z-index: 10;
   position: relative;
   cursor: pointer;
-  // font-size: $type-size-6;
 
   li:last-child {
     a {
@@ -199,7 +184,7 @@
 .author__urls {
   display: none;
   position: absolute;
-  right: 20;
+  right: 0;
   margin-top: 15px;
   padding: 10px;
   list-style-type: none;
@@ -216,7 +201,7 @@
     margin: 0;
     padding: 0;
     border: 0;
-    background: #fff;//transparent;
+    background: transparent;
     box-shadow: none;
   }
 
