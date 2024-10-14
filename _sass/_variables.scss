@@ -43,10 +43,10 @@ $type-size-7                : 0.6875em; // ~11px
 $type-size-8                : 0.625em;  // ~10px
 
 /* masthead properties */
-$masthead-height            : 70px;
+$masthead-height            : 50px;
 
 /* Sidebar properties */
-$sidebar-screen-min-width   : 950px;
+$sidebar-min-width          : 1024px;
 $sidebar-link-max-width     : 250px;
 
 
@@ -114,30 +114,27 @@ $masthead-link-color-hover  : mix(#000, $primary-color, 25%);
    ========================================================================== */
 
 @include breakpoint-set("to ems", true);
-
+/*
 $small                      : 400px;
 $medium                     : 500px;
 $medium-wide                : 550px;
 $large                      : 1200px;
 $x-large                    : 1800px;
+*/
 
-
-// $small                      : 600px !default;
-// $medium                     : 768px !default;
-// $medium-wide                : 900px !default;
-// $large                      : 850px !default;
-// $x-large                    : 850px !default;
+$small                      : 600px !default;
+$medium                     : 768px !default;
+$medium-wide                : 900px !default;
+$large                      : 925px !default;
+$x-large                    : 1280px !default;
 
 /*
    Grid
    ========================================================================== */
 
-// $right-sidebar-width-narrow : 110px !default;
-// $right-sidebar-width        : 240px !default;
-// $right-sidebar-width-wide   : 300px !default;
-$right-sidebar-width-narrow : 110px !default;
-$right-sidebar-width        : 240px !default;
-$right-sidebar-width-wide   : 300px !default;
+$right-sidebar-width-narrow : 0px;
+$right-sidebar-width        : 0px;
+$right-sidebar-width-wide   : 0px;
 
 $susy: (
   columns: 12,
